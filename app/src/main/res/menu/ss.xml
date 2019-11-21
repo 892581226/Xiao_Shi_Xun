@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+        <item android:title="咨讯"/>
+        <group android:checkableBehavior="single" android:id="@+id/group">
+            <item android:id="@+id/add1" android:icon="@mipmap/ic_launcher" android:title="知乎日报" />
+            <item android:id="@+id/add2" android:icon="@mipmap/ic_launcher" android:title="微信精选" />
+            <item android:id="@+id/add3" android:icon="@mipmap/ic_launcher" android:title="干货集中营" />
+            <item android:id="@+id/add4" android:icon="@mipmap/ic_launcher" android:title="稀土掘金" />
+            <item android:id="@+id/add5" android:icon="@mipmap/ic_launcher" android:title="V2EX" />
+        </group>
+        <item android:title="选项"/>
+        <group android:checkableBehavior="single" android:id="@+id/group1">
+            <item android:id="@+id/add6" android:icon="@mipmap/ic_launcher" android:title="收藏" />
+            <item android:id="@+id/add7" android:icon="@mipmap/ic_launcher" android:title="设置" />
+            <item android:id="@+id/add8" android:icon="@mipmap/ic_launcher" android:title="关于" />
+        </group>
+
+
+</menu>
