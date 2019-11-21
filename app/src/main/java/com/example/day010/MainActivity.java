@@ -95,6 +95,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 getSupportFragmentManager().beginTransaction()
                         .replace(R.id.lin22,new BlankFragment5(),BlankFragment5.class.getSimpleName()).commit();
                 toolbar.setTitle("V2EX");
+
                 dra.closeDrawers();
                 break;
         }
