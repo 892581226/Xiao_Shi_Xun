@@ -3,11 +3,13 @@ package com.example.day010;
 
 import android.os.Bundle;
 
+import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 
 /**
@@ -44,4 +46,15 @@ public class BlankFragment11 extends Fragment {
         return 0;
     }
 
+    @Override
+    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+
+        switch (a){
+            case 0:
+
+                break;
+        }
+
+    }
 }
